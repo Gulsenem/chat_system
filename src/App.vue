@@ -1,6 +1,6 @@
 <template>
   
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld />
 </template>
 
 <script>
@@ -15,6 +15,9 @@ export default {
 </script>
 
 <style>
+body{
+  background-color: #d3f6e6;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
